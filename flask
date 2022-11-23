@@ -1,0 +1,26 @@
+FROM ghcr.io/jasonwsuk/viking_flask_only:latest
+WORKDIR /flask-web
+COPY . .
+SHELL ["/bin/bash", "-c"]
+RUN pip3 install -r requirements.txt
+RUN pip3 install flask
+RUN pip3 install python-dotenv
+RUN pip3 install flask-ext
+RUN pip3 install psycopg2-binary
+ENV FLASK_APP "pybo"
+ENV FLASK_DEBUG "true"
+ENV APP_CONFIG_FILE ../config/development.py
+RUN echo "DB_NAME=flask_pybo\n" > .env
+RUN echo "DB_USER=dbmasteruser\n" >> .env
+RUN echo "DB_HOST=master\n" >> .env
+RUN echo "from config.default import *\n\n" > config/development.py
+RUN echo "SQLALCHEMY_DATABASE_URI = " >> config/development.py
+RUN echo "postgresql://dbmasteruser:sukiyo" >> config/development.py
+RUN echo "@master:5432/flask_pybo'\n" >> config/development.py
+RUN echo "SQLALCHEMY_TRACK_MODIFICATIONS=False\n" >> config/development.py
+RUN echo "SECRET_KEY=\"dev\"" >> config/development.py
+RUN flask db init
+RUN flask db migrate
+RUN flask db upgrade
+ENTRYPOINT ["flask"]
+CMD ["run", "--host", "0.0.0.0", "--port", "5000"]
