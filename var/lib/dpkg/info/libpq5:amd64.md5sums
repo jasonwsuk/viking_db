@@ -1,0 +1,17 @@
+52f728d18e62bfa0ea3a504d7750a71c  usr/lib/x86_64-linux-gnu/libpq.so.5.15
+a9338debcc51dbfd086a65e44693e732  usr/share/doc/libpq5/changelog.Debian.gz
+a234a8d076067432de9a43d14b3c09e8  usr/share/doc/libpq5/changelog.gz
+fccc8327b7bcbcb41751601101100929  usr/share/doc/libpq5/copyright
+d630d035152245a1d18a84ad2731bc5d  usr/share/locale/cs/LC_MESSAGES/libpq5-15.mo
+3f3afec62e900079e07efe2dfd2f6b1f  usr/share/locale/de/LC_MESSAGES/libpq5-15.mo
+66acaf98acc1eac1d7a1e0cbe93e66bc  usr/share/locale/el/LC_MESSAGES/libpq5-15.mo
+4334ae8031178cb2a70da96f2a069df8  usr/share/locale/es/LC_MESSAGES/libpq5-15.mo
+1fe52f1271f3f3f2241a95a7e25a8d37  usr/share/locale/fr/LC_MESSAGES/libpq5-15.mo
+6619db4865b896ad6c674eeff604fa3e  usr/share/locale/it/LC_MESSAGES/libpq5-15.mo
+d1894136a0acce616b9427da7521cf0d  usr/share/locale/ja/LC_MESSAGES/libpq5-15.mo
+c0ed31ecd3c6039bad4aa851b63b01b3  usr/share/locale/ka/LC_MESSAGES/libpq5-15.mo
+fa991ebecc60ff3870041438f8d735ab  usr/share/locale/ko/LC_MESSAGES/libpq5-15.mo
+ae94f3f383baf8a009687e35705ba830  usr/share/locale/ru/LC_MESSAGES/libpq5-15.mo
+66b786a7195532574a195fbdee491f29  usr/share/locale/sv/LC_MESSAGES/libpq5-15.mo
+04d05e665ddf47aadfe2d26e90f20382  usr/share/locale/uk/LC_MESSAGES/libpq5-15.mo
+2d6b0e4aa7ab4c819c39a36dd9d71149  usr/share/locale/zh_CN/LC_MESSAGES/libpq5-15.mo
