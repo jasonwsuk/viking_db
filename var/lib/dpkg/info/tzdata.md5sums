@@ -1,7 +1,12 @@
 8374302ab936fb95e0b0d140d0891851  usr/sbin/tzconfig
 5461b4c9623a1657baf85fbc0c8576b6  usr/share/doc/tzdata/README.Debian
+<<<<<<< HEAD
 158fb946556c469e33e27e62eeaed25b  usr/share/doc/tzdata/changelog.Debian.gz
 b1e04ea4eec87b4cd06962aff69f9b0e  usr/share/doc/tzdata/changelog.gz
+=======
+14e4f93bcf18c5c9c1eca9bb089d206a  usr/share/doc/tzdata/changelog.Debian.gz
+00c034de447fdfa880aaad37f643aea2  usr/share/doc/tzdata/changelog.gz
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 74db18639ac152c0d3a0396a016b1a79  usr/share/doc/tzdata/copyright
 74c6fb9ae4ea68d0012c1f6ad42b5848  usr/share/zoneinfo/Africa/Abidjan
 6cb97bef390f7c65022c2e8c7eec45e0  usr/share/zoneinfo/Africa/Accra
@@ -41,7 +46,11 @@ d5846e6cacdbc1c8a643e697a06ce747  usr/share/zoneinfo/America/Argentina/San_Luis
 efedcde6637f1cee75b49529ad81517f  usr/share/zoneinfo/America/Asuncion
 775c926f99a096a3fbd1cd2545f15aa1  usr/share/zoneinfo/America/Atikokan
 af7a81ce58d132d938c90bd481c7dbca  usr/share/zoneinfo/America/Bahia
+<<<<<<< HEAD
 d9f37691d0f66be717b59c53fa40b2b5  usr/share/zoneinfo/America/Bahia_Banderas
+=======
+6d24d30bc671042918ba397a15e6114c  usr/share/zoneinfo/America/Bahia_Banderas
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 92550378b8952475d3bffe20b1168820  usr/share/zoneinfo/America/Barbados
 b1d5a74e761c9089355162fcdda9170e  usr/share/zoneinfo/America/Belem
 da3145d79cba5f541dd261434e449173  usr/share/zoneinfo/America/Belize
@@ -55,7 +64,11 @@ a2fe4da50cfb1afe8a46d6f55b805afa  usr/share/zoneinfo/America/Cancun
 7366c039e0038bccf8f46b73c0cea982  usr/share/zoneinfo/America/Caracas
 956677d7242909de58e5c7135696880a  usr/share/zoneinfo/America/Cayenne
 336503fc3236140ebc049c1d5f9ac425  usr/share/zoneinfo/America/Chicago
+<<<<<<< HEAD
 4a9b32ceb7ebf29b55759c0fe8928bed  usr/share/zoneinfo/America/Chihuahua
+=======
+75c741bb811f4ee563ce05eb976e53a1  usr/share/zoneinfo/America/Chihuahua
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 be801a07ae7de8a1d78c0952618e23dd  usr/share/zoneinfo/America/Costa_Rica
 f9b5dfcdbb68fa834fec16dcf38c77a6  usr/share/zoneinfo/America/Creston
 196ce8bf457a9ed42cce3595ebe725b5  usr/share/zoneinfo/America/Cuiaba
@@ -101,6 +114,7 @@ c1940357ef94f547e32671b0b3df96cf  usr/share/zoneinfo/America/Kentucky/Louisville
 87402e3fc212725f162334f9da3e80fb  usr/share/zoneinfo/America/Manaus
 c9f7dcc292228e3d455bc94e2293bd23  usr/share/zoneinfo/America/Martinique
 9ba17635ae8f44fa50c4565328433383  usr/share/zoneinfo/America/Matamoros
+<<<<<<< HEAD
 eedcc2b9c627e8b284c4a49df1372e1c  usr/share/zoneinfo/America/Mazatlan
 c05fe82bf18256cc290872b05ffa14a5  usr/share/zoneinfo/America/Menominee
 a896d81da25d3b19d2661fed9052eeb2  usr/share/zoneinfo/America/Merida
@@ -109,6 +123,16 @@ db9809944c8d6bc1ea1ea35d30a0b8c3  usr/share/zoneinfo/America/Metlakatla
 46ebac53ff19ea5c2705296597ba177f  usr/share/zoneinfo/America/Miquelon
 13241e88bc91163e9905b1e032f46c92  usr/share/zoneinfo/America/Moncton
 17661c414ad45beb162eab88e365abe3  usr/share/zoneinfo/America/Monterrey
+=======
+2a157b818df8ab296baf6de38cd7d32b  usr/share/zoneinfo/America/Mazatlan
+c05fe82bf18256cc290872b05ffa14a5  usr/share/zoneinfo/America/Menominee
+91ebe16317802987c2cd9c567b6e4c2a  usr/share/zoneinfo/America/Merida
+db9809944c8d6bc1ea1ea35d30a0b8c3  usr/share/zoneinfo/America/Metlakatla
+cff58c6976849e1e8f94d4288b07b9d2  usr/share/zoneinfo/America/Mexico_City
+46ebac53ff19ea5c2705296597ba177f  usr/share/zoneinfo/America/Miquelon
+13241e88bc91163e9905b1e032f46c92  usr/share/zoneinfo/America/Moncton
+f77b22ac5e4f995ef8d4839835a54faa  usr/share/zoneinfo/America/Monterrey
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 1e3f99958559e67eeedf7c0e7ca248bd  usr/share/zoneinfo/America/Montevideo
 1444a5132c9a26f350ebe705760215c7  usr/share/zoneinfo/America/Nassau
 58543f30ac34b6510b552b9b3e82b772  usr/share/zoneinfo/America/New_York
@@ -119,7 +143,11 @@ c6d0b263c897ac1f4a27cad4f46d72b5  usr/share/zoneinfo/America/Nome
 43372ccbbfb9fbb24825ce5180907727  usr/share/zoneinfo/America/North_Dakota/Center
 e8de1757512d13d36504458b2bafa7fa  usr/share/zoneinfo/America/North_Dakota/New_Salem
 2d8ecd691b6e045dddf7f05b64b78126  usr/share/zoneinfo/America/Nuuk
+<<<<<<< HEAD
 f7de64daaa5bb45d603ec26391af4e4e  usr/share/zoneinfo/America/Ojinaga
+=======
+95e6bee1cb146689410010d58e6ee974  usr/share/zoneinfo/America/Ojinaga
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 257dfdcb1fe364ce2db0331188af2614  usr/share/zoneinfo/America/Panama
 b71f8c6f5a9b289c981af0cdbf80f7e1  usr/share/zoneinfo/America/Pangnirtung
 c6755952d644ef53b4b3d29df11f9a33  usr/share/zoneinfo/America/Paramaribo
@@ -362,7 +390,11 @@ c685dcf43d11bfb9097e509a74b97915  usr/share/zoneinfo/Pacific/Easter
 3628842ca74117a9a83817858db3ddb0  usr/share/zoneinfo/Pacific/Efate
 bff6f617bfddfd109c9854579b4f49db  usr/share/zoneinfo/Pacific/Enderbury
 9fd3267546008adae0d620510056d445  usr/share/zoneinfo/Pacific/Fakaofo
+<<<<<<< HEAD
 38a3561ee3c4a0314405903152156798  usr/share/zoneinfo/Pacific/Fiji
+=======
+a7b0332c0c65f2596b0b64176a7714f7  usr/share/zoneinfo/Pacific/Fiji
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 8f8fa69f0fa8121d93e3bbac6f9844a6  usr/share/zoneinfo/Pacific/Funafuti
 24187c82908f79fbfe67545e75354614  usr/share/zoneinfo/Pacific/Galapagos
 f69027647b2ca05499292e2a6b91eb2b  usr/share/zoneinfo/Pacific/Gambier
@@ -431,7 +463,11 @@ d5846e6cacdbc1c8a643e697a06ce747  usr/share/zoneinfo/posix/America/Argentina/San
 efedcde6637f1cee75b49529ad81517f  usr/share/zoneinfo/posix/America/Asuncion
 775c926f99a096a3fbd1cd2545f15aa1  usr/share/zoneinfo/posix/America/Atikokan
 af7a81ce58d132d938c90bd481c7dbca  usr/share/zoneinfo/posix/America/Bahia
+<<<<<<< HEAD
 d9f37691d0f66be717b59c53fa40b2b5  usr/share/zoneinfo/posix/America/Bahia_Banderas
+=======
+6d24d30bc671042918ba397a15e6114c  usr/share/zoneinfo/posix/America/Bahia_Banderas
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 92550378b8952475d3bffe20b1168820  usr/share/zoneinfo/posix/America/Barbados
 b1d5a74e761c9089355162fcdda9170e  usr/share/zoneinfo/posix/America/Belem
 da3145d79cba5f541dd261434e449173  usr/share/zoneinfo/posix/America/Belize
@@ -445,7 +481,11 @@ a2fe4da50cfb1afe8a46d6f55b805afa  usr/share/zoneinfo/posix/America/Cancun
 7366c039e0038bccf8f46b73c0cea982  usr/share/zoneinfo/posix/America/Caracas
 956677d7242909de58e5c7135696880a  usr/share/zoneinfo/posix/America/Cayenne
 336503fc3236140ebc049c1d5f9ac425  usr/share/zoneinfo/posix/America/Chicago
+<<<<<<< HEAD
 4a9b32ceb7ebf29b55759c0fe8928bed  usr/share/zoneinfo/posix/America/Chihuahua
+=======
+75c741bb811f4ee563ce05eb976e53a1  usr/share/zoneinfo/posix/America/Chihuahua
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 be801a07ae7de8a1d78c0952618e23dd  usr/share/zoneinfo/posix/America/Costa_Rica
 f9b5dfcdbb68fa834fec16dcf38c77a6  usr/share/zoneinfo/posix/America/Creston
 196ce8bf457a9ed42cce3595ebe725b5  usr/share/zoneinfo/posix/America/Cuiaba
@@ -491,6 +531,7 @@ c1940357ef94f547e32671b0b3df96cf  usr/share/zoneinfo/posix/America/Kentucky/Loui
 87402e3fc212725f162334f9da3e80fb  usr/share/zoneinfo/posix/America/Manaus
 c9f7dcc292228e3d455bc94e2293bd23  usr/share/zoneinfo/posix/America/Martinique
 9ba17635ae8f44fa50c4565328433383  usr/share/zoneinfo/posix/America/Matamoros
+<<<<<<< HEAD
 eedcc2b9c627e8b284c4a49df1372e1c  usr/share/zoneinfo/posix/America/Mazatlan
 c05fe82bf18256cc290872b05ffa14a5  usr/share/zoneinfo/posix/America/Menominee
 a896d81da25d3b19d2661fed9052eeb2  usr/share/zoneinfo/posix/America/Merida
@@ -499,6 +540,16 @@ db9809944c8d6bc1ea1ea35d30a0b8c3  usr/share/zoneinfo/posix/America/Metlakatla
 46ebac53ff19ea5c2705296597ba177f  usr/share/zoneinfo/posix/America/Miquelon
 13241e88bc91163e9905b1e032f46c92  usr/share/zoneinfo/posix/America/Moncton
 17661c414ad45beb162eab88e365abe3  usr/share/zoneinfo/posix/America/Monterrey
+=======
+2a157b818df8ab296baf6de38cd7d32b  usr/share/zoneinfo/posix/America/Mazatlan
+c05fe82bf18256cc290872b05ffa14a5  usr/share/zoneinfo/posix/America/Menominee
+91ebe16317802987c2cd9c567b6e4c2a  usr/share/zoneinfo/posix/America/Merida
+db9809944c8d6bc1ea1ea35d30a0b8c3  usr/share/zoneinfo/posix/America/Metlakatla
+cff58c6976849e1e8f94d4288b07b9d2  usr/share/zoneinfo/posix/America/Mexico_City
+46ebac53ff19ea5c2705296597ba177f  usr/share/zoneinfo/posix/America/Miquelon
+13241e88bc91163e9905b1e032f46c92  usr/share/zoneinfo/posix/America/Moncton
+f77b22ac5e4f995ef8d4839835a54faa  usr/share/zoneinfo/posix/America/Monterrey
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 1e3f99958559e67eeedf7c0e7ca248bd  usr/share/zoneinfo/posix/America/Montevideo
 1444a5132c9a26f350ebe705760215c7  usr/share/zoneinfo/posix/America/Nassau
 58543f30ac34b6510b552b9b3e82b772  usr/share/zoneinfo/posix/America/New_York
@@ -509,7 +560,11 @@ c6d0b263c897ac1f4a27cad4f46d72b5  usr/share/zoneinfo/posix/America/Nome
 43372ccbbfb9fbb24825ce5180907727  usr/share/zoneinfo/posix/America/North_Dakota/Center
 e8de1757512d13d36504458b2bafa7fa  usr/share/zoneinfo/posix/America/North_Dakota/New_Salem
 2d8ecd691b6e045dddf7f05b64b78126  usr/share/zoneinfo/posix/America/Nuuk
+<<<<<<< HEAD
 f7de64daaa5bb45d603ec26391af4e4e  usr/share/zoneinfo/posix/America/Ojinaga
+=======
+95e6bee1cb146689410010d58e6ee974  usr/share/zoneinfo/posix/America/Ojinaga
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 257dfdcb1fe364ce2db0331188af2614  usr/share/zoneinfo/posix/America/Panama
 b71f8c6f5a9b289c981af0cdbf80f7e1  usr/share/zoneinfo/posix/America/Pangnirtung
 c6755952d644ef53b4b3d29df11f9a33  usr/share/zoneinfo/posix/America/Paramaribo
@@ -752,7 +807,11 @@ c685dcf43d11bfb9097e509a74b97915  usr/share/zoneinfo/posix/Pacific/Easter
 3628842ca74117a9a83817858db3ddb0  usr/share/zoneinfo/posix/Pacific/Efate
 bff6f617bfddfd109c9854579b4f49db  usr/share/zoneinfo/posix/Pacific/Enderbury
 9fd3267546008adae0d620510056d445  usr/share/zoneinfo/posix/Pacific/Fakaofo
+<<<<<<< HEAD
 38a3561ee3c4a0314405903152156798  usr/share/zoneinfo/posix/Pacific/Fiji
+=======
+a7b0332c0c65f2596b0b64176a7714f7  usr/share/zoneinfo/posix/Pacific/Fiji
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 8f8fa69f0fa8121d93e3bbac6f9844a6  usr/share/zoneinfo/posix/Pacific/Funafuti
 24187c82908f79fbfe67545e75354614  usr/share/zoneinfo/posix/Pacific/Galapagos
 f69027647b2ca05499292e2a6b91eb2b  usr/share/zoneinfo/posix/Pacific/Gambier
@@ -818,7 +877,11 @@ af90afd71a8430a2502f671031cf0607  usr/share/zoneinfo/right/America/Argentina/San
 f2f7937f730f27a508b6fe00e8bfeea9  usr/share/zoneinfo/right/America/Asuncion
 6cf195b98073e9bc36e4f91f080a43c9  usr/share/zoneinfo/right/America/Atikokan
 59db747ac4f4aa783ac169aefe014471  usr/share/zoneinfo/right/America/Bahia
+<<<<<<< HEAD
 db4b085529a16ebb14139f6aeba0b254  usr/share/zoneinfo/right/America/Bahia_Banderas
+=======
+c4d9dbbd094173ced5c98e67415078d2  usr/share/zoneinfo/right/America/Bahia_Banderas
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 167070d16fcfd7709c995c5f08804df9  usr/share/zoneinfo/right/America/Barbados
 a7caf9670daf4e40714a4f4e3bd4de38  usr/share/zoneinfo/right/America/Belem
 a6f600d246de9f362ce80412e50e703c  usr/share/zoneinfo/right/America/Belize
@@ -832,7 +895,11 @@ e0ce6aa03cfcd1d5bc760d49164c05f3  usr/share/zoneinfo/right/America/Boise
 4c01dab6f9d01f804b48c233707571ad  usr/share/zoneinfo/right/America/Caracas
 e506d8921fea4c5f859271d2f3c404a1  usr/share/zoneinfo/right/America/Cayenne
 19b9722ede4fbf7549408e805fde0981  usr/share/zoneinfo/right/America/Chicago
+<<<<<<< HEAD
 fe55257a989d72c10d293f1cf096922f  usr/share/zoneinfo/right/America/Chihuahua
+=======
+33a79cc0ff099fde13feeb3853c3a751  usr/share/zoneinfo/right/America/Chihuahua
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 1e39fab89356adc5f8b17c51a8774e26  usr/share/zoneinfo/right/America/Costa_Rica
 c51ce7d4549fd1419d1a04b83d246b98  usr/share/zoneinfo/right/America/Creston
 7cbed8a0245e86be851141b0570e96f6  usr/share/zoneinfo/right/America/Cuiaba
@@ -878,6 +945,7 @@ bed1f87c0119e6e100703bbfca8a2cb1  usr/share/zoneinfo/right/America/Lima
 cee8ce11d0d5959a29b811db031a760e  usr/share/zoneinfo/right/America/Manaus
 601083c1785e112b5305e930a160c14c  usr/share/zoneinfo/right/America/Martinique
 00b0a1fee9df01734ec34c14112254d3  usr/share/zoneinfo/right/America/Matamoros
+<<<<<<< HEAD
 9594df74b491d228c46f01ff599e3f59  usr/share/zoneinfo/right/America/Mazatlan
 3982b2eb6b82bafcd43086bff70391a8  usr/share/zoneinfo/right/America/Menominee
 d3cbafdaa0502c5337d9f39b853e2a40  usr/share/zoneinfo/right/America/Merida
@@ -886,6 +954,16 @@ d3cbafdaa0502c5337d9f39b853e2a40  usr/share/zoneinfo/right/America/Merida
 3a32c8d1acc868437504552de02fd519  usr/share/zoneinfo/right/America/Miquelon
 9b368bd93acb8e71d27c366b90d085f4  usr/share/zoneinfo/right/America/Moncton
 ce7af1ced9d887ea57ddebc107abd476  usr/share/zoneinfo/right/America/Monterrey
+=======
+c366dd821b732f958ecc81707eecc297  usr/share/zoneinfo/right/America/Mazatlan
+3982b2eb6b82bafcd43086bff70391a8  usr/share/zoneinfo/right/America/Menominee
+a55e8a1f3630c03f89edadaf4680ec25  usr/share/zoneinfo/right/America/Merida
+343fbf2ad186247b3ada34df3a73a39b  usr/share/zoneinfo/right/America/Metlakatla
+9a5c52d9e60891e2b51c17610e75d11f  usr/share/zoneinfo/right/America/Mexico_City
+3a32c8d1acc868437504552de02fd519  usr/share/zoneinfo/right/America/Miquelon
+9b368bd93acb8e71d27c366b90d085f4  usr/share/zoneinfo/right/America/Moncton
+d1560b82e96ac594927f7652ca277d16  usr/share/zoneinfo/right/America/Monterrey
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 ff72ed4243821ff00975e6e2ca391a11  usr/share/zoneinfo/right/America/Montevideo
 73ec388017abd0e22f37d88a0b8e8a97  usr/share/zoneinfo/right/America/Nassau
 7a9af121012aaa81e25697e39bc6f419  usr/share/zoneinfo/right/America/New_York
@@ -896,7 +974,11 @@ ff72ed4243821ff00975e6e2ca391a11  usr/share/zoneinfo/right/America/Montevideo
 d32547ac4e7f75cf778d159613be460c  usr/share/zoneinfo/right/America/North_Dakota/Center
 8f90b6b95bc3da80e8c75c880e98e10d  usr/share/zoneinfo/right/America/North_Dakota/New_Salem
 7d1c2e69d7a0e888fb2691df6dc7059a  usr/share/zoneinfo/right/America/Nuuk
+<<<<<<< HEAD
 5ac422ca34538c8e4766398b87bb698b  usr/share/zoneinfo/right/America/Ojinaga
+=======
+9c60152b7b11563719f61bb0f52e9e9e  usr/share/zoneinfo/right/America/Ojinaga
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 89cdcf508eaa9773a6fa0e622862effa  usr/share/zoneinfo/right/America/Panama
 8409ed8281ca17daf9c87560426b7c02  usr/share/zoneinfo/right/America/Pangnirtung
 94cad15c2905ecd5c9220ebb4a665d63  usr/share/zoneinfo/right/America/Paramaribo
@@ -1139,7 +1221,11 @@ a1a2f11bc4c97d966bd3c6dcb86a9511  usr/share/zoneinfo/right/Pacific/Chuuk
 b0d1d7a5777c45377808c5f97aacb00d  usr/share/zoneinfo/right/Pacific/Efate
 0a33f0255601a0122850c651dbf6a17b  usr/share/zoneinfo/right/Pacific/Enderbury
 b9219c6f1a32e964bf4b359c8b7c5d40  usr/share/zoneinfo/right/Pacific/Fakaofo
+<<<<<<< HEAD
 7d70022c88606897ef6e9d8dbd6c467c  usr/share/zoneinfo/right/Pacific/Fiji
+=======
+3cbff09e881ac0c1eb49b930e98ea487  usr/share/zoneinfo/right/Pacific/Fiji
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 46004887c35f9c1a9dc65fbaf89e9d45  usr/share/zoneinfo/right/Pacific/Funafuti
 7bf33d91e9304768987015a3d757ac47  usr/share/zoneinfo/right/Pacific/Galapagos
 070a088f631f2b40ee106250df0c550f  usr/share/zoneinfo/right/Pacific/Gambier
@@ -1167,6 +1253,10 @@ ca5ca68cb6c13aead3db1cd8f9f8ac17  usr/share/zoneinfo/right/Pacific/Port_Moresby
 5cc2b4a9e633be3154a3a41bcafc3be3  usr/share/zoneinfo/right/Pacific/Wake
 9f88195b66743bcff49e2081e05745e2  usr/share/zoneinfo/right/Pacific/Wallis
 15c2f82dc72a60bc3667add41a66a5fa  usr/share/zoneinfo/right/WET
+<<<<<<< HEAD
 f8d69a9fa7296bfa6624a3c920792247  usr/share/zoneinfo/tzdata.zi
+=======
+c59ef66897701453c297a20d755de5d3  usr/share/zoneinfo/tzdata.zi
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 02dddc33edc3a0eeb783555dc2ce1156  usr/share/zoneinfo/zone.tab
 2b7b091f4b1c41d6384b254f55654299  usr/share/zoneinfo/zone1970.tab

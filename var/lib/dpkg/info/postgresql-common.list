@@ -76,9 +76,15 @@
 /usr/share/postgresql-common/pg_getwal
 /usr/share/postgresql-common/pg_updateaptconfig
 /usr/share/postgresql-common/pgdg
+<<<<<<< HEAD
 /usr/share/postgresql-common/pgdg/apt.postgresql.org.asc
 /usr/share/postgresql-common/pgdg/apt.postgresql.org.gpg
 /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
+=======
+/usr/share/postgresql-common/pgdg/Makefile
+/usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
+/usr/share/postgresql-common/pgdg/update
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 /usr/share/postgresql-common/run-upgrade-scripts
 /usr/share/postgresql-common/server
 /usr/share/postgresql-common/server/pg_config.pl

@@ -103,6 +103,7 @@ sub check_major {
 
     # verify that the correct client version is selected
     like_program_out 'postgres', 'createdb --version', 0, qr/^createdb \(PostgreSQL\) $v/,
+<<<<<<< HEAD
         'pg_wrapper+createdb selects version number of cluster';
 
     # we always want to use the latest version of "psql", though.
@@ -113,6 +114,13 @@ sub check_major {
     }
     like_program_out 'postgres', 'psql --version', 0, qr/^psql \(PostgreSQL\) $max_version/,
         "pg_wrapper+psql selects version $max_version";
+=======
+        'pg_wrapper selects version number of cluster';
+
+    # we always want to use the latest version of "psql", though.
+    like_program_out 'postgres', 'psql --version', 0, qr/^psql \(PostgreSQL\) $ALL_MAJORS[-1]/,
+        'pg_wrapper selects version number of cluster';
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 
     my $default_log = "/var/log/postgresql/postgresql-$v-main.log";
 

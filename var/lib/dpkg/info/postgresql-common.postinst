@@ -125,6 +125,7 @@ EOF
 
     # Reload systemd (we don't restart services on install) (#932360, #950726)
     [ -d /run/systemd/system ] && systemctl --system daemon-reload >/dev/null || :
+<<<<<<< HEAD
 
     # Provide keyring symlink for pgdg systems using the old pgdg.list format
     pgdg_list="/etc/apt/sources.list.d/pgdg.list"
@@ -133,6 +134,8 @@ EOF
     if test -e $pgdg_list && ! test -e $trusted_key && ! grep -q signed-by $pgdg_list; then
         ln -sv $pgdg_key $trusted_key
     fi
+=======
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 fi
 
 if [ "$1" = triggered ]; then

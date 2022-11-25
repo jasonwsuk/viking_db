@@ -2011,12 +2011,20 @@ Package: libpq5
 Status: install ok unpacked
 Priority: optional
 Section: libs
+<<<<<<< HEAD
 Installed-Size: 846
+=======
+Installed-Size: 812
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: postgresql-15
+<<<<<<< HEAD
 Version: 15.1-1.pgdg110+1
+=======
+Version: 15.0-1.pgdg110+1
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Depends: libc6 (>= 2.25), libgssapi-krb5-2 (>= 1.17), libldap-2.4-2 (>= 2.4.7), libssl1.1 (>= 1.1.0)
 Description: PostgreSQL C client library
  libpq is a C library that enables user programs to communicate with
@@ -2495,7 +2503,11 @@ Installed-Size: 1875
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Architecture: amd64
 Multi-Arch: same
+<<<<<<< HEAD
 Version: 2.9.10+dfsg-6.7+deb11u3
+=======
+Version: 2.9.10+dfsg-6.7+deb11u2
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Depends: libc6 (>= 2.29), libicu67 (>= 67.1-1~), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.3.3)
 Description: GNOME XML library
  XML is a metalanguage to let you design your own markup language.
@@ -2933,6 +2945,30 @@ Description: Core Perl modules
  should use `perl' (which depends on `perl-modules-5.32') instead.
 Homepage: http://dev.perl.org/perl5/
 
+<<<<<<< HEAD
+=======
+Package: pgdg-keyring
+Status: install ok installed
+Priority: optional
+Section: database
+Installed-Size: 22
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: all
+Version: 2018.2
+Depends: apt
+Description: keyring for apt.postgresql.org
+ The PostgreSQL Global Development Group (PGDG) provides an archive of
+ PostgreSQL server and extension modules packages for various Debian and Ubuntu
+ releases at http://apt.postgresql.org/pub/repos/apt/. It complements the
+ packages in those distributions by offering all PostgreSQL server versions
+ supported by the PGDG compiled for all releases, as well as server extension
+ modules for a broad range of server version/distribution combinations.
+ .
+ This package contains the public key used for signing the repository. It
+ should be installed on all hosts using the repository.
+Homepage: https://apt.postgresql.org/
+
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Package: pinentry-curses
 Status: install ok installed
 Priority: optional
@@ -2969,6 +3005,7 @@ Package: postgresql-15
 Status: install ok unpacked
 Priority: optional
 Section: database
+<<<<<<< HEAD
 Installed-Size: 51906
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Architecture: amd64
@@ -2977,6 +3014,15 @@ Provides: postgresql-15-jit-llvm (= 11), postgresql-contrib-15
 Depends: locales | locales-all, postgresql-client-15, postgresql-common (>= 241~), ssl-cert, tzdata, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libgssapi-krb5-2 (>= 1.14+dfsg), libicu67 (>= 67.1-1~), libldap-2.4-2 (>= 2.4.7), libllvm11 (>= 1:9~svn298832-1~), liblz4-1 (>= 0.0~r130), libpam0g (>= 0.99.7.1), libpq5 (>= 14~beta2), libselinux1 (>= 3.1~), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libsystemd0, libuuid1 (>= 2.16), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
 Recommends: sysstat
 Breaks: dbconfig-common (<< 2.0.22~)
+=======
+Installed-Size: 50961
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Architecture: amd64
+Version: 15.0-1.pgdg110+1
+Provides: postgresql-15-jit-llvm (= 11), postgresql-contrib-15
+Depends: locales | locales-all, postgresql-client-15, postgresql-common (>= 241~), ssl-cert, tzdata, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libgssapi-krb5-2 (>= 1.14+dfsg), libicu67 (>= 67.1-1~), libldap-2.4-2 (>= 2.4.7), libllvm11 (>= 1:9~svn298832-1~), liblz4-1 (>= 0.0~r130), libpam0g (>= 0.99.7.1), libpq5 (>= 14~beta2), libselinux1 (>= 3.1~), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libsystemd0, libuuid1 (>= 2.16), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+Recommends: sysstat
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Description: The World's Most Advanced Open Source Relational Database
  PostgreSQL, also known as Postgres, is a free and open-source relational
  database management system (RDBMS) emphasizing extensibility and SQL
@@ -2994,14 +3040,24 @@ Package: postgresql-client-15
 Status: install ok unpacked
 Priority: optional
 Section: database
+<<<<<<< HEAD
 Installed-Size: 7787
+=======
+Installed-Size: 7508
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Architecture: amd64
 Multi-Arch: foreign
 Source: postgresql-15
+<<<<<<< HEAD
 Version: 15.1-1.pgdg110+1
 Provides: postgresql-client
 Depends: libpq5 (>= 15.1), postgresql-client-common (>= 182~), sensible-utils, libc6 (>= 2.25), liblz4-1 (>= 0.0~r127), libreadline8 (>= 6.0), libssl1.1 (>= 1.1.0), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+=======
+Version: 15.0-1.pgdg110+1
+Provides: postgresql-client
+Depends: libpq5 (>= 15.0), postgresql-client-common (>= 182~), sensible-utils, libc6 (>= 2.25), liblz4-1 (>= 0.0~r127), libreadline8 (>= 6.0), libssl1.1 (>= 1.1.0), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Suggests: postgresql-15, postgresql-doc-15
 Description: front-end programs for PostgreSQL 15
  This package contains client and administrative programs for
@@ -3021,13 +3077,22 @@ Package: postgresql-client-common
 Status: install ok installed
 Priority: optional
 Section: database
+<<<<<<< HEAD
 Installed-Size: 185
+=======
+Installed-Size: 183
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Architecture: all
 Multi-Arch: foreign
 Source: postgresql-common
+<<<<<<< HEAD
 Version: 246.pgdg110+1
 Depends: netbase, perl:any
+=======
+Version: 244.pgdg110+1
+Depends: netbase, perl:any, pgdg-keyring
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Conffiles:
  /etc/postgresql-common/supported_versions 63fb7ea19cf1ae9f1d8ed456709545d9
  /etc/postgresql-common/user_clusters d2959e6ae6847342be07146ce06af33b
@@ -3050,6 +3115,7 @@ Package: postgresql-common
 Status: install ok triggers-pending
 Priority: optional
 Section: database
+<<<<<<< HEAD
 Installed-Size: 709
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Architecture: all
@@ -3061,6 +3127,18 @@ Pre-Depends: init-system-helpers (>= 1.54~)
 Recommends: e2fsprogs, logrotate
 Breaks: postgresql-9.1 (<< 9.1.1-3~), postgresql-server-dev-all (<< 204)
 Conflicts: pgdg-keyring
+=======
+Installed-Size: 698
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 244.pgdg110+1
+Replaces: postgresql-server-dev-all (<< 204)
+Depends: adduser, debconf (>= 0.5.00) | debconf-2.0, libjson-perl, lsb-base (>= 3.0-3), postgresql-client-common (= 244.pgdg110+1), ssl-cert (>= 1.0.11), ucf, perl:any
+Pre-Depends: init-system-helpers (>= 1.54~)
+Recommends: e2fsprogs, logrotate
+Breaks: postgresql-9.1 (<< 9.1.1-3~), postgresql-server-dev-all (<< 204)
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Conffiles:
  /etc/init.d/postgresql 1b9da643d7a403248d70e1776fb98458
  /etc/logrotate.d/postgresql-common 101326ef5d138998692ece35109ef1a2
@@ -3202,11 +3280,19 @@ Package: tzdata
 Status: install ok installed
 Priority: required
 Section: localization
+<<<<<<< HEAD
 Installed-Size: 3393
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Architecture: all
 Multi-Arch: foreign
 Version: 2021a-1+deb11u8
+=======
+Installed-Size: 3402
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 2021a-1+deb11u7
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Provides: tzdata-bullseye
 Depends: debconf (>= 0.5) | debconf-2.0
 Description: time zone and daylight-saving time data

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 19832529450518140cc177f0708d0145  usr/share/doc/postgresql-client-common/changelog.gz
 9ab62f992dcf8c5345c1804f0bc0b540  usr/share/doc/postgresql-client-common/copyright
 50a862ecd39a75a9c92ea0e0c23c1e15  usr/share/lintian/overrides/postgresql-client-common
@@ -7,4 +8,15 @@ da210a6be18dd472220a7e5dc50eb4f5  usr/share/man/man5/user_clusters.5.gz
 cce84412d277a737be677c975ff4bf39  usr/share/perl5/PgCommon.pm
 115e9864ceba5c46552859a4504defdc  usr/share/postgresql-common/maintscripts-functions
 1c5b49f8b394c7f9e2bd7e43ce0cde33  usr/share/postgresql-common/pg_wrapper
+=======
+786f97df61a770085d57889548707a41  usr/share/doc/postgresql-client-common/changelog.gz
+9ab62f992dcf8c5345c1804f0bc0b540  usr/share/doc/postgresql-client-common/copyright
+50a862ecd39a75a9c92ea0e0c23c1e15  usr/share/lintian/overrides/postgresql-client-common
+45c844ae427fc8e64ca69125f376e3b4  usr/share/man/man1/pg_wrapper.1.gz
+883c0b1985d77d7553a9ecf0824b9895  usr/share/man/man5/postgresqlrc.5.gz
+da210a6be18dd472220a7e5dc50eb4f5  usr/share/man/man5/user_clusters.5.gz
+463e10ea164b4abd5f2e4c1d45d326dd  usr/share/perl5/PgCommon.pm
+115e9864ceba5c46552859a4504defdc  usr/share/postgresql-common/maintscripts-functions
+ea61447da19b5e83ee2fb2df05bbe2e0  usr/share/postgresql-common/pg_wrapper
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 a3a1f8f277340de483815fba110e0e00  usr/share/postgresql-common/supported-versions

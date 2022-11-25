@@ -104,6 +104,7 @@
 /usr/share/locale/he/LC_MESSAGES/pg_config-15.mo
 /usr/share/locale/it
 /usr/share/locale/it/LC_MESSAGES
+<<<<<<< HEAD
 /usr/share/locale/it/LC_MESSAGES/pg_amcheck-15.mo
 /usr/share/locale/it/LC_MESSAGES/pg_basebackup-15.mo
 /usr/share/locale/it/LC_MESSAGES/pg_config-15.mo
@@ -111,6 +112,9 @@
 /usr/share/locale/it/LC_MESSAGES/pg_verifybackup-15.mo
 /usr/share/locale/it/LC_MESSAGES/pgscripts-15.mo
 /usr/share/locale/it/LC_MESSAGES/psql-15.mo
+=======
+/usr/share/locale/it/LC_MESSAGES/pg_config-15.mo
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 /usr/share/locale/ja
 /usr/share/locale/ja/LC_MESSAGES
 /usr/share/locale/ja/LC_MESSAGES/pg_amcheck-15.mo

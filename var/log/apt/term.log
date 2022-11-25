@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 Log started: 2022-11-15  06:38:07
+=======
+Log started: 2022-10-25  13:23:25
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Selecting previously unselected package readline-common.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6661 files and directories currently installed.)
 Preparing to unpack .../00-readline-common_8.1-1_all.deb ...
@@ -86,9 +90,15 @@ Setting up gpg-wks-server (2.2.27-2+deb11u2) ...
 Setting up gpg-wks-client (2.2.27-2+deb11u2) ...
 Setting up gnupg (2.2.27-2+deb11u2) ...
 Processing triggers for libc-bin (2.31-13+deb11u5) ...
+<<<<<<< HEAD
 Log ended: 2022-11-15  06:38:09
 
 Log started: 2022-11-15  06:38:14
+=======
+Log ended: 2022-10-25  13:23:27
+
+Log started: 2022-10-25  13:23:32
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Selecting previously unselected package openssl.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6989 files and directories currently installed.)
 Preparing to unpack .../openssl_1.1.1n-0+deb11u3_amd64.deb ...
@@ -120,9 +130,15 @@ Updating certificates in /etc/ssl/certs...
 0 added, 0 removed; done.
 Running hooks in /etc/ca-certificates/update.d...
 done.
+<<<<<<< HEAD
 Log ended: 2022-11-15  06:38:16
 
 Log started: 2022-11-15  06:38:18
+=======
+Log ended: 2022-10-25  13:23:33
+
+Log started: 2022-10-25  13:23:36
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 7396 files and directories currently installed.)
 Removing ca-certificates (20210119) ...
 Removing dangling symlinks from /etc/ssl/certs... done.
@@ -141,9 +157,15 @@ debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Ter
 debconf: falling back to frontend: Teletype
 Removing dangling symlinks from /etc/ssl/certs... done.
 Purging configuration files for openssl (1.1.1n-0+deb11u3) ...
+<<<<<<< HEAD
 Log ended: 2022-11-15  06:38:19
 
 Log started: 2022-11-15  06:38:23
+=======
+Log ended: 2022-10-25  13:23:37
+
+Log started: 2022-10-25  13:23:41
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Selecting previously unselected package libc-l10n.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6989 files and directories currently installed.)
 Preparing to unpack .../libc-l10n_2.31-13+deb11u5_all.deb ...
@@ -161,9 +183,15 @@ debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Ter
 debconf: falling back to frontend: Teletype
 Generating locales (this might take a while)...
 Generation complete.
+<<<<<<< HEAD
 Log ended: 2022-11-15  06:38:24
 
 Log started: 2022-11-15  06:38:30
+=======
+Log ended: 2022-10-25  13:23:42
+
+Log started: 2022-10-25  13:23:48
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Selecting previously unselected package xz-utils.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 7646 files and directories currently installed.)
 Preparing to unpack .../xz-utils_5.2.5-2.1~deb11u1_amd64.deb ...
@@ -188,9 +216,15 @@ update-alternatives: warning: skip creation of /usr/share/man/man1/lzegrep.1.gz 
 update-alternatives: warning: skip creation of /usr/share/man/man1/lzfgrep.1.gz because associated file /usr/share/man/man1/xzfgrep.1.gz (of link group lzma) doesn't exist
 Setting up zstd (1.4.8+dfsg-2.1) ...
 Setting up libnss-wrapper:amd64 (1.1.11-1) ...
+<<<<<<< HEAD
 Log ended: 2022-11-15  06:38:30
 
 Log started: 2022-11-15  06:38:37
+=======
+Log ended: 2022-10-25  13:23:49
+
+Log started: 2022-10-25  13:23:56
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Selecting previously unselected package perl-modules-5.32.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 7734 files and directories currently installed.)
 Preparing to unpack .../00-perl-modules-5.32_5.32.1-4+deb11u2_all.deb ...
@@ -213,6 +247,7 @@ Unpacking libjson-perl (4.03000-1) ...
 Selecting previously unselected package netbase.
 Preparing to unpack .../06-netbase_6.3_all.deb ...
 Unpacking netbase (6.3) ...
+<<<<<<< HEAD
 Selecting previously unselected package postgresql-client-common.
 Preparing to unpack .../07-postgresql-client-common_246.pgdg110+1_all.deb ...
 Unpacking postgresql-client-common (246.pgdg110+1) ...
@@ -233,6 +268,32 @@ Selecting previously unselected package postgresql-common.
 Preparing to unpack .../12-postgresql-common_246.pgdg110+1_all.deb ...
 Adding 'diversion of /usr/bin/pg_config to /usr/bin/pg_config.libpq-dev by postgresql-common'
 Unpacking postgresql-common (246.pgdg110+1) ...
+=======
+Selecting previously unselected package pgdg-keyring.
+Preparing to unpack .../07-pgdg-keyring_2018.2_all.deb ...
+Unpacking pgdg-keyring (2018.2) ...
+Selecting previously unselected package postgresql-client-common.
+Preparing to unpack .../08-postgresql-client-common_244.pgdg110+1_all.deb ...
+Unpacking postgresql-client-common (244.pgdg110+1) ...
+Selecting previously unselected package openssl.
+Preparing to unpack .../09-openssl_1.1.1n-0+deb11u3_amd64.deb ...
+Unpacking openssl (1.1.1n-0+deb11u3) ...
+Selecting previously unselected package ssl-cert.
+Preparing to unpack .../10-ssl-cert_1.1.0+nmu1_all.deb ...
+Unpacking ssl-cert (1.1.0+nmu1) ...
+Selecting previously unselected package sensible-utils.
+Preparing to unpack .../11-sensible-utils_0.0.14_all.deb ...
+Unpacking sensible-utils (0.0.14) ...
+Selecting previously unselected package ucf.
+Preparing to unpack .../12-ucf_3.0043_all.deb ...
+Moving old data out of the way
+Unpacking ucf (3.0043) ...
+Selecting previously unselected package postgresql-common.
+Preparing to unpack .../13-postgresql-common_244.pgdg110+1_all.deb ...
+Adding 'diversion of /usr/bin/pg_config to /usr/bin/pg_config.libpq-dev by postgresql-common'
+Unpacking postgresql-common (244.pgdg110+1) ...
+Setting up pgdg-keyring (2018.2) ...
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Setting up perl-modules-5.32 (5.32.1-4+deb11u2) ...
 Setting up sensible-utils (0.0.14) ...
 Setting up netbase (6.3) ...
@@ -250,8 +311,13 @@ debconf: falling back to frontend: Readline
 Setting up libperl5.32:amd64 (5.32.1-4+deb11u2) ...
 Setting up perl (5.32.1-4+deb11u2) ...
 Setting up libjson-perl (4.03000-1) ...
+<<<<<<< HEAD
 Setting up postgresql-client-common (246.pgdg110+1) ...
 Setting up postgresql-common (246.pgdg110+1) ...
+=======
+Setting up postgresql-client-common (244.pgdg110+1) ...
+Setting up postgresql-common (244.pgdg110+1) ...
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 debconf: unable to initialize frontend: Dialog
 debconf: (TERM is not set, so the dialog frontend is not usable.)
 debconf: falling back to frontend: Readline
@@ -263,11 +329,19 @@ Removing obsolete dictionary files:
 invoke-rc.d: could not determine current runlevel
 invoke-rc.d: policy-rc.d denied execution of start.
 Processing triggers for libc-bin (2.31-13+deb11u5) ...
+<<<<<<< HEAD
 Log ended: 2022-11-15  06:38:40
 
 Log started: 2022-11-15  06:38:42
 Selecting previously unselected package libmd0:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10128 files and directories currently installed.)
+=======
+Log ended: 2022-10-25  13:23:59
+
+Log started: 2022-10-25  13:24:05
+Selecting previously unselected package libmd0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10133 files and directories currently installed.)
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Preparing to unpack .../00-libmd0_1.0.3-3_amd64.deb ...
 Unpacking libmd0:amd64 (1.0.3-3) ...
 Selecting previously unselected package libbsd0:amd64.
@@ -286,15 +360,24 @@ Selecting previously unselected package libllvm11:amd64.
 Preparing to unpack .../05-libllvm11_1%3a11.0.1-2_amd64.deb ...
 Unpacking libllvm11:amd64 (1:11.0.1-2) ...
 Selecting previously unselected package libpq5:amd64.
+<<<<<<< HEAD
 Preparing to unpack .../06-libpq5_15.1-1.pgdg110+1_amd64.deb ...
 Unpacking libpq5:amd64 (15.1-1.pgdg110+1) ...
 Selecting previously unselected package libxml2:amd64.
 Preparing to unpack .../07-libxml2_2.9.10+dfsg-6.7+deb11u3_amd64.deb ...
 Unpacking libxml2:amd64 (2.9.10+dfsg-6.7+deb11u3) ...
+=======
+Preparing to unpack .../06-libpq5_15.0-1.pgdg110+1_amd64.deb ...
+Unpacking libpq5:amd64 (15.0-1.pgdg110+1) ...
+Selecting previously unselected package libxml2:amd64.
+Preparing to unpack .../07-libxml2_2.9.10+dfsg-6.7+deb11u2_amd64.deb ...
+Unpacking libxml2:amd64 (2.9.10+dfsg-6.7+deb11u2) ...
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Selecting previously unselected package libxslt1.1:amd64.
 Preparing to unpack .../08-libxslt1.1_1.1.34-4+deb11u1_amd64.deb ...
 Unpacking libxslt1.1:amd64 (1.1.34-4+deb11u1) ...
 Selecting previously unselected package postgresql-client-15.
+<<<<<<< HEAD
 Preparing to unpack .../09-postgresql-client-15_15.1-1.pgdg110+1_amd64.deb ...
 Unpacking postgresql-client-15 (15.1-1.pgdg110+1) ...
 Selecting previously unselected package postgresql-15.
@@ -303,26 +386,52 @@ Unpacking postgresql-15 (15.1-1.pgdg110+1) ...
 Setting up libicu67:amd64 (67.1-7) ...
 Setting up libpq5:amd64 (15.1-1.pgdg110+1) ...
 Setting up postgresql-client-15 (15.1-1.pgdg110+1) ...
+=======
+Preparing to unpack .../09-postgresql-client-15_15.0-1.pgdg110+1_amd64.deb ...
+Unpacking postgresql-client-15 (15.0-1.pgdg110+1) ...
+Selecting previously unselected package postgresql-15.
+Preparing to unpack .../10-postgresql-15_15.0-1.pgdg110+1_amd64.deb ...
+Unpacking postgresql-15 (15.0-1.pgdg110+1) ...
+Setting up libicu67:amd64 (67.1-7) ...
+Setting up libpq5:amd64 (15.0-1.pgdg110+1) ...
+Setting up postgresql-client-15 (15.0-1.pgdg110+1) ...
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 update-alternatives: using /usr/share/postgresql/15/man/man1/psql.1.gz to provide /usr/share/man/man1/psql.1.gz (psql.1.gz) in auto mode
 Setting up libz3-4:amd64 (4.8.10-1) ...
 Setting up libmd0:amd64 (1.0.3-3) ...
 Setting up libbsd0:amd64 (0.11.3-1) ...
+<<<<<<< HEAD
 Setting up libxml2:amd64 (2.9.10+dfsg-6.7+deb11u3) ...
 Setting up libedit2:amd64 (3.1-20191231-2+b1) ...
 Setting up libllvm11:amd64 (1:11.0.1-2) ...
 Setting up libxslt1.1:amd64 (1.1.34-4+deb11u1) ...
 Setting up postgresql-15 (15.1-1.pgdg110+1) ...
+=======
+Setting up libxml2:amd64 (2.9.10+dfsg-6.7+deb11u2) ...
+Setting up libedit2:amd64 (3.1-20191231-2+b1) ...
+Setting up libllvm11:amd64 (1:11.0.1-2) ...
+Setting up libxslt1.1:amd64 (1.1.34-4+deb11u1) ...
+Setting up postgresql-15 (15.0-1.pgdg110+1) ...
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 debconf: unable to initialize frontend: Dialog
 debconf: (TERM is not set, so the dialog frontend is not usable.)
 debconf: falling back to frontend: Readline
 update-alternatives: using /usr/share/postgresql/15/man/man1/postmaster.1.gz to provide /usr/share/man/man1/postmaster.1.gz (postmaster.1.gz) in auto mode
 invoke-rc.d: could not determine current runlevel
 invoke-rc.d: policy-rc.d denied execution of start.
+<<<<<<< HEAD
 Processing triggers for postgresql-common (246.pgdg110+1) ...
+=======
+Processing triggers for postgresql-common (244.pgdg110+1) ...
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 debconf: unable to initialize frontend: Dialog
 debconf: (TERM is not set, so the dialog frontend is not usable.)
 debconf: falling back to frontend: Readline
 Building PostgreSQL dictionaries from installed myspell/hunspell packages...
 Removing obsolete dictionary files:
 Processing triggers for libc-bin (2.31-13+deb11u5) ...
+<<<<<<< HEAD
 Log ended: 2022-11-15  06:38:48
+=======
+Log ended: 2022-10-25  13:24:11
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0

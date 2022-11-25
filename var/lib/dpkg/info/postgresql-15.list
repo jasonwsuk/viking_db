@@ -1240,6 +1240,7 @@
 /usr/share/locale/fr/LC_MESSAGES/postgres-15.mo
 /usr/share/locale/it
 /usr/share/locale/it/LC_MESSAGES
+<<<<<<< HEAD
 /usr/share/locale/it/LC_MESSAGES/initdb-15.mo
 /usr/share/locale/it/LC_MESSAGES/pg_archivecleanup-15.mo
 /usr/share/locale/it/LC_MESSAGES/pg_checksums-15.mo
@@ -1253,6 +1254,11 @@
 /usr/share/locale/it/LC_MESSAGES/pg_waldump-15.mo
 /usr/share/locale/it/LC_MESSAGES/plpgsql-15.mo
 /usr/share/locale/it/LC_MESSAGES/postgres-15.mo
+=======
+/usr/share/locale/it/LC_MESSAGES/pg_controldata-15.mo
+/usr/share/locale/it/LC_MESSAGES/pg_ctl-15.mo
+/usr/share/locale/it/LC_MESSAGES/plpgsql-15.mo
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 /usr/share/locale/ja
 /usr/share/locale/ja/LC_MESSAGES
 /usr/share/locale/ja/LC_MESSAGES/initdb-15.mo

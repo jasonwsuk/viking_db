@@ -80,6 +80,7 @@ foreach my $v (@MAJORS) {
                 exec "pg_backupcluster $v main receivewal 2>/dev/null";
             }
         }
+<<<<<<< HEAD
         program_ok $pg_uid, "psql -c 'create table poke_receivewal (t text)' mydb";
         usleep($delay);
         my $wal = "000000010000000000000001";
@@ -89,6 +90,13 @@ foreach my $v (@MAJORS) {
         local $TODO = "WAL test is unstable";
         ok_dir "$dir/wal", [$wal], "$dir/wal contains $wal";
         }
+=======
+        my $wal = "000000010000000000000001";
+        $wal .= ".gz" if ($v >= 10);
+        $wal .= ".partial";
+        usleep($delay);
+        ok_dir "$dir/wal", [$wal], "$dir/wal contains $wal";
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
     }
     if ($systemd) {
         program_ok 0, "systemctl start pg_basebackup\@$v-main";

@@ -1,0 +1,26 @@
+#!/bin/sh
+
+set -e
+
+KEYRING="/etc/apt/trusted.gpg.d/apt.postgresql.org.gpg"
+
+case $1 in
+	configure)
+		# we only execute "apt-key remove" if "apt-key list" reported
+		# the key, mute warning that we don't depend on gnupg
+		export APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=yeah
+		# remove older copy of key, if any
+		if [ -f /etc/apt/trusted.gpg ] && apt-key --keyring /etc/apt/trusted.gpg list 2>/dev/null | egrep -q 'ACCC.?4CF8'; then
+			echo -n "Removing apt.postgresql.org key from trusted.gpg: "
+			apt-key --keyring /etc/apt/trusted.gpg remove ACCC4CF8
+		fi
+		if [ "$2" ] && dpkg --compare-versions "$2" lt "2017"; then
+			# convert remove old file so we can put the symlink in place
+			test -f $KEYRING && rm $KEYRING
+			rm -f "$KEYRING~"
+		fi
+		test -e $KEYRING || ln -s /usr/share/postgresql-common/pgdg/apt.postgresql.org.gpg $KEYRING
+		;;
+esac
+
+

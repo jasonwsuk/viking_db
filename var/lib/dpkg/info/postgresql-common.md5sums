@@ -9,7 +9,11 @@ abc808b2c9e7f5322c917d1a92d979cd  lib/systemd/system/pg_receivewal@.service
 cc942563c4eedf643d245720ad57f7e5  lib/systemd/system/postgresql.service
 5b25f284506ad288820d584bea86fb23  lib/systemd/system/postgresql@.service
 5e1dfdbbe30df44a66038669fee3291c  usr/bin/pg_backupcluster
+<<<<<<< HEAD
 5ea7dfcf47c76b8b1f6d2c45ceeaeff8  usr/bin/pg_buildext
+=======
+22f50c3a93c741d882dcc8c10921bd4c  usr/bin/pg_buildext
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 51671503dc655e6b0c209893404354bf  usr/bin/pg_config
 a9fc80d72690ebf3d45b0aab5ade6dc0  usr/bin/pg_conftool
 c09cb477c70b3d26fce5cc6441f5a486  usr/bin/pg_createcluster
@@ -26,6 +30,7 @@ f27062b8a3d75e4ba0a42cf2aa85cb16  usr/share/doc/postgresql-common/NEWS.Debian.gz
 a265bb3603f5762d3178a5811f598b85  usr/share/doc/postgresql-common/README.Debian.gz
 dbf97db644a95f65f96f14d9f85aee87  usr/share/doc/postgresql-common/README.md.gz
 4cd87e5d63d36e08761ca69de1eb33d2  usr/share/doc/postgresql-common/README.systemd
+<<<<<<< HEAD
 19832529450518140cc177f0708d0145  usr/share/doc/postgresql-common/changelog.gz
 9ab62f992dcf8c5345c1804f0bc0b540  usr/share/doc/postgresql-common/copyright
 7e2b22341263311c0bf8c65b3bf12458  usr/share/doc/postgresql-common/dependencies.svg
@@ -43,17 +48,45 @@ e0ddd6e969da0afd17d05990d849fc4f  usr/share/man/man1/pg_conftool.1.gz
 314725f7c386f32a1f5ca9e64d880ccf  usr/share/man/man1/pg_upgradecluster.1.gz
 10090852deb46a9ecf12525fb49a2cd7  usr/share/man/man1/pg_virtualenv.1.gz
 4a111955379e8a0914c21d96e7f081a9  usr/share/man/man8/pg_updatedicts.8.gz
+=======
+786f97df61a770085d57889548707a41  usr/share/doc/postgresql-common/changelog.gz
+9ab62f992dcf8c5345c1804f0bc0b540  usr/share/doc/postgresql-common/copyright
+7e2b22341263311c0bf8c65b3bf12458  usr/share/doc/postgresql-common/dependencies.svg
+331f1ca4ce82eae11f3c43a6db3a6e31  usr/share/lintian/overrides/postgresql-common
+3ab76716b9a38ef01550ac726d5293e8  usr/share/man/man1/pg_backupcluster.1.gz
+cc99f47cfa6b458b3a5507d8da04a390  usr/share/man/man1/pg_buildext.1.gz
+e6ccfb935c38558ce63a199866885aab  usr/share/man/man1/pg_conftool.1.gz
+ba9c6adeeaf2049bb576009ee7a59e04  usr/share/man/man1/pg_createcluster.1.gz
+dfd5b92d0078c909818257aadbd318d3  usr/share/man/man1/pg_ctlcluster.1.gz
+3e47584a8af37d4895b42dca4b97897d  usr/share/man/man1/pg_dropcluster.1.gz
+d4aafebd063f0ee55ad293f166015b58  usr/share/man/man1/pg_getwal.1.gz
+170013a70b6d69beb70f51a333a6e976  usr/share/man/man1/pg_lsclusters.1.gz
+31057df11faed22185ad48edf07d12ac  usr/share/man/man1/pg_renamecluster.1.gz
+c133415dae49e27967515a9006d646ce  usr/share/man/man1/pg_restorecluster.1.gz
+573f20d0508f266369a89059e158e2ad  usr/share/man/man1/pg_upgradecluster.1.gz
+ce498929cfba08591d3a1ad8e1718cb8  usr/share/man/man1/pg_virtualenv.1.gz
+04240d8cded8b6a1881026cf0f4fb358  usr/share/man/man8/pg_updatedicts.8.gz
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 fbc910d4bc9889530c92c7e8b101689b  usr/share/postgresql-common/createcluster.conf
 1807ef5f120a67ca8200448837e1a175  usr/share/postgresql-common/init.d-functions
 f0058666750cd528f8e9caab862f4976  usr/share/postgresql-common/pg_checksystem
 036443be3f7c6bd1d23f4e603e041ac5  usr/share/postgresql-common/pg_getwal
 32f81ee39939cb8a09f3699a7b518051  usr/share/postgresql-common/pg_updateaptconfig
+<<<<<<< HEAD
 f54c5c1aa1329dc26e33b29762faaec4  usr/share/postgresql-common/pgdg/apt.postgresql.org.asc
 6a3176c14d82faa17aaab0c6b34d50ea  usr/share/postgresql-common/pgdg/apt.postgresql.org.gpg
 0c6087f010b0ba1a5b4fde2914db2813  usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
 ec494daceae7394c6a7cd103cbf00488  usr/share/postgresql-common/run-upgrade-scripts
 79e3aefeac09ebd5c7acd351f609392e  usr/share/postgresql-common/server/pg_config.pl
 128658e751bdff5626e2b246139b75b2  usr/share/postgresql-common/server/postgresql.mk
+=======
+92e8ce402832322d1c9d30d0b74a0d2f  usr/share/postgresql-common/pgdg/Makefile
+506132bb799d2e01ee213e4217aa1c92  usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
+1657f18fce05e386c3dc4c64699b1d3e  usr/share/postgresql-common/pgdg/update
+ec494daceae7394c6a7cd103cbf00488  usr/share/postgresql-common/run-upgrade-scripts
+79e3aefeac09ebd5c7acd351f609392e  usr/share/postgresql-common/server/pg_config.pl
+2103ea28f841ab806a3de6c186da1453  usr/share/postgresql-common/server/postgresql.mk
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 f0e34030bc1d08e5fdb221b24cfd43b9  usr/share/postgresql-common/server/test-with-jit.conf
 9d527f4a973ee65e68ca8ee5999e3d29  usr/share/postgresql-common/t/001_packages.t
 89713db7636f5344ae169888ed307133  usr/share/postgresql-common/t/002_existing_clusters.t
@@ -62,7 +95,11 @@ c0570bc54e1c3c8002a0858873f0c195  usr/share/postgresql-common/t/006_next_free_po
 a4f1e3f72fa6369b5a1c107524f82a3c  usr/share/postgresql-common/t/007_pg_conftool.t
 bac2ad3821492b19227a41c2c22c45f0  usr/share/postgresql-common/t/010_defaultport_cluster.t
 2b5dd7d7691fa569337e3ef103c3f488  usr/share/postgresql-common/t/015_start_stop.t
+<<<<<<< HEAD
 f0bbbd32a93e4d74cde5e0d241484e6c  usr/share/postgresql-common/t/020_create_sql_remove.t
+=======
+f4ce21babeab2ed64092b3079422bd1c  usr/share/postgresql-common/t/020_create_sql_remove.t
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 b5509e1fc4a13a5aa3d19be0cb07cd47  usr/share/postgresql-common/t/021_pg_renamecluster.t
 c76610c2cd41ca2de75f6635bd504061  usr/share/postgresql-common/t/022_recovery.t
 2b27accc1257762f51f3b4d2f26d9bb6  usr/share/postgresql-common/t/025_logging.t
@@ -73,7 +110,11 @@ a618e998b2abdde4caaf56d0a56e6842  usr/share/postgresql-common/t/031_errors_disk_
 335821f7f379eea7c841ef3e6950498d  usr/share/postgresql-common/t/041_upgrade_custompaths.t
 08af5d7fe90a36fbf976de52e157e5e7  usr/share/postgresql-common/t/042_upgrade_rename.t
 6ff3b27773855e61275318ac5ea9e2f1  usr/share/postgresql-common/t/043_upgrade_ssl_cert.t
+<<<<<<< HEAD
 8335af53ed09e425d827a02aac6adbad  usr/share/postgresql-common/t/045_backup.t
+=======
+e7f12ba9611709d39c64bff41a2a9e73  usr/share/postgresql-common/t/045_backup.t
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 3d44cbfbdc9bdc53a7113c253c01304f  usr/share/postgresql-common/t/050_encodings.t
 d43702a43099a0139250254e743e2907  usr/share/postgresql-common/t/052_upgrade_encodings.t
 c303572dd5d703e3f4eeec4f06496724  usr/share/postgresql-common/t/060_obsolete_confparams.t

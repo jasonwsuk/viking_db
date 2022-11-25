@@ -498,6 +498,13 @@ Package: postgresql-client-common
 Architecture: amd64
 Auto-Installed: 1
 
+<<<<<<< HEAD
+=======
+Package: pgdg-keyring
+Architecture: amd64
+Auto-Installed: 1
+
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 Package: perl-modules-5.32
 Architecture: amd64
 Auto-Installed: 1

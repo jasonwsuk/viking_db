@@ -1,6 +1,10 @@
 #!/bin/sh
 
+<<<<<<< HEAD
 # script to add apt.postgresql.org to sources.list.d
+=======
+# script to add apt.postgresql.org to sources.list
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 
 # Copyright (C) 2013-2022 Christoph Berg <myon@debian.org>
 #
@@ -12,16 +16,28 @@
 # The full text of the GPL is distributed as in
 # /usr/share/common-licenses/GPL-2 on Debian systems.
 
+<<<<<<< HEAD
 SOURCESLIST="/etc/apt/sources.list.d/pgdg.sources"
 TYPES="deb"
+=======
+SOURCESLIST="/etc/apt/sources.list.d/pgdg.list"
+DEB_SRC="#deb-src"
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 COMPONENTS="main"
 PGDG="pgdg"
 
 # variables imported from https://git.postgresql.org/gitweb/?p=pgapt.git;a=blob;f=pgapt.conf
+<<<<<<< HEAD
 # checked out in $HOME/apt.postgresql.org/; run "make" to update
 PG_BETA_VERSION=""
 PG_DEVEL_VERSION="16"
 PG_REPOSITORY_DISTS="sid bookworm bullseye buster kinetic jammy focal bionic"
+=======
+# run "make" to update
+PG_BETA_VERSION="15"
+PG_DEVEL_VERSION="16"
+PG_REPOSITORY_DISTS="sid bookworm bullseye buster stretch kinetic jammy focal bionic"
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 PG_ARCHIVE_DISTS="sid bookworm bullseye buster stretch jessie wheezy squeeze lenny etch kinetic jammy impish hirsute groovy focal eoan disco cosmic bionic zesty xenial wily utopic saucy precise lucid"
 
 while getopts "c:f:h:ipstv:y" opt ; do
@@ -31,7 +47,11 @@ while getopts "c:f:h:ipstv:y" opt ; do
         h) HOST="$OPTARG" ;; # hostname to use in sources.list
         i) INSTALL="yes" ;; # install packages for version given with -v
         p) PURGE="yes" ;; # purge existing postgresql packages
+<<<<<<< HEAD
         s) TYPES="deb deb-src" ;; # include source repository as well
+=======
+        s) DEB_SRC="deb-src" ;; # include source repository as well
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
         t) PGDG="pgdg-testing" ;; # use *-pgdg or *-pgdg-testing
         v) PGVERSION="$OPTARG" ;; # set up sources.list to use this version (useful for beta/devel packages)
         y) ;; # don't ask for confirmation
@@ -82,6 +102,7 @@ fi
 # errors are non-fatal above
 set -eu
 
+<<<<<<< HEAD
 if [ "${HOST:-}" ]; then
     :
 elif echo "$PG_REPOSITORY_DISTS" | grep -qw "$CODENAME"; then
@@ -93,6 +114,14 @@ elif echo "$PG_ARCHIVE_DISTS" | grep -qw "$CODENAME"; then
 else # unknown distribution, verify on the web
     HOST="apt.postgresql.org"
 	DISTURL="https://$HOST/pub/repos/apt/dists/"
+=======
+if echo "$PG_REPOSITORY_DISTS" | grep -qw "$CODENAME"; then
+    : ${HOST:=apt.postgresql.org} # known distribution on apt.postgresql.org
+elif echo "$PG_ARCHIVE_DISTS" | grep -qw "$CODENAME"; then
+    : ${HOST:=apt-archive.postgresql.org} # known distribution on apt.postgresql.org
+else # unknown distribution, verify on the web
+	DISTURL="https://${HOST:=apt.postgresql.org}/pub/repos/apt/dists/"
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 	if [ -x /usr/bin/curl ]; then
 	    DISTHTML=$(curl -s $DISTURL || :)
 	elif [ -x /usr/bin/wget ]; then
@@ -129,6 +158,7 @@ if [ -z "${YES:-}" ]; then
     echo
 fi
 
+<<<<<<< HEAD
 # prefer .gpg keyring from postgresql-common
 KEYRING="/usr/share/postgresql-common/pgdg/apt.postgresql.org.gpg"
 # otherwise, use the .asc key
@@ -136,6 +166,32 @@ test -e $KEYRING || KEYRING="/usr/share/postgresql-common/pgdg/apt.postgresql.or
 echo "Using keyring $KEYRING"
 # write .asc key to disk if not yet present
 test -e $KEYRING || cat >> $KEYRING <<EOF
+=======
+# beta version needs a different component
+if [ "${PGVERSION:-}" = "${PG_BETA_VERSION-none}" ]; then
+    COMPONENTS="main $PGVERSION"
+fi
+
+echo "Writing $SOURCESLIST ..."
+cat > $SOURCESLIST <<EOF
+deb https://$HOST/pub/repos/apt/ $CODENAME-$PGDG $COMPONENTS
+$DEB_SRC https://$HOST/pub/repos/apt/ $CODENAME-$PGDG $COMPONENTS
+EOF
+
+# devel version comes from *-pgdg-snapshot (with lower default apt pinning priority)
+if [ "${PGVERSION:-}" = "${PG_DEVEL_VERSION-none}" ]; then
+    cat >> $SOURCESLIST <<-EOF
+	deb https://$HOST/pub/repos/apt/ $CODENAME-pgdg-snapshot $PG_DEVEL_VERSION
+	$DEB_SRC https://$HOST/pub/repos/apt/ $CODENAME-pgdg-snapshot $PG_DEVEL_VERSION
+	EOF
+    PIN="-t $CODENAME-pgdg-snapshot"
+fi
+
+echo "Importing repository signing key ..."
+KEYRING="/etc/apt/trusted.gpg.d/apt.postgresql.org.gpg"
+test -e $KEYRING || touch $KEYRING
+apt-key --keyring $KEYRING add - <<EOF
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBE6XR8IBEACVdDKT2HEH1IyHzXkb4nIWAY7echjRxo7MTcj4vbXAyBKOfjja
@@ -215,6 +271,7 @@ Gtz3cydIohvNO9d90+29h0eGEDYti7j7maHkBKUAwlcPvMg5m3Y=
 -----END PGP PUBLIC KEY BLOCK-----
 EOF
 
+<<<<<<< HEAD
 # devel version comes from *-pgdg-snapshot (with lower default apt pinning priority)
 if [ "${PGVERSION:-0}" -ge "${PG_DEVEL_VERSION:-999}" ]; then
     PIN="-t $CODENAME-pgdg-snapshot"
@@ -249,13 +306,19 @@ if [ "$SOURCESLIST" = "/etc/apt/sources.list.d/pgdg.sources" ]; then
     rm -vf /etc/apt/sources.list.d/pgdg.list /etc/apt/trusted.gpg.d/apt.postgresql.org.gpg
 fi
 
+=======
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 echo
 echo "Running apt-get update ..."
 apt-get update
 
 cat <<EOF
 
+<<<<<<< HEAD
 You can now start installing packages from $HOST.
+=======
+You can now start installing packages from apt.postgresql.org.
+>>>>>>> 3490362b43f621bd4c9cd9d60a6072e3338057a0
 
 Have a look at https://wiki.postgresql.org/wiki/Apt for more information;
 most notably the FAQ at https://wiki.postgresql.org/wiki/Apt/FAQ
